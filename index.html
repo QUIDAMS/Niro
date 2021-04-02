@@ -5,60 +5,101 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Niro</title>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 	<link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
-	<header class="header">
-		<div class="container">
-			<div class="row nav d-flex align-items-center">
-				<div class="col col-md-5">
-					<div class="menu d-flex">
-						<a href="#">
-							<img class="menu__logo" src="img/Niro..svg" alt="Niro.">
-						</a>
-						<ul class="nav-bar d-flex m-0 p-0">
+	<div class="app">
+		<header class="header">
+			<div class="container container__padding">
+				<div class="row nav d-flex align-items-center">
+					<div class="col col-md-5">
+						<div class="menu d-flex mt-2">
+
 							<a href="#">
-								<li class="menu__item m-0 p-0">Products
-								<img src="img/Icon/Arrow-down.svg" alt="expand" class="menu__element">
-							</li>
+								<img class="menu__logo" src="img/Niro..svg" alt="Niro.">
 							</a>
-							<a href="#">
-								<li class="menu__item m-0 p-0">Rooms
-									<img src="img/Icon/Arrow-down.svg" alt="expand" class="menu__element">
+							<ul class="nav-bar d-flex my-0 p-0">
+								<li class="menu__item my-0 py-0 ">Products
+									<a href="#">
+										<img src="img/Icon/Arrow-down.svg" alt="expand" class="menu__element">
+									</a>
 								</li>
-							</a>
-							<a href="#">
-								<li class="menu__item-last m-0 p-0">Inspirations</li>
-							</a>
-						</ul>
+								<li class="menu__item my-0 py-0">Rooms
+									<a href="#">
+										<img src="img/Icon/Arrow-down.svg" alt="expand" class="menu__element">
+									</a>
+								</li>
+								<li class="menu__item-last my-0 py-0"><a href="#">Inspirations</a></li>
+							</ul>
+						</div>
 					</div>
-				</div>
-				<div class="col col-md-5">
-					<div class="input-group menu-search">
-						<span class="input-group-text border-0 menu-search__icon" id="basic-addon1">
-							<img src="img/Icon/Search.svg" alt="">
-						</span>
-						<input class="form-control me-2 border-0 " type="search" placeholder="Search for minimalist chair" aria-label="Search">
+					<div class="col col-md-5 ml-2">
+						<div class="input-group menu-search menu-search__items">
+							<span class="input-group-text border-0 menu-search__icon" id="basic-addon1">
+								<img src="img/Icon/Search.svg" alt="">
+							</span>
+							<input class="form-control me-2 border-0 " type="search" placeholder="Search for minimalist chair" aria-label="Search">
+						</div>
 					</div>
-				</div>
-				<div class="col col-md-2 d-flex">
-					<div class="menu__icons">
-						<a href="#"><img src="img/Icon/Heart.svg" alt="heart" class="menu__img" ></a>
-						<a href="#"><img src="img/Icon/Cart.svg" alt="cart" class="menu__img"></a>
-						<a href="#"><img src="img/user-photo.jpg" alt="avatar" class="avatar"></a>
+					<div class="col col-md-2 d-flex">
+						<div class="menu__icons">
+							<a href="#"><img src="img/Icon/Heart.svg" alt="heart" class="menu__img" ></a>
+							<a href="#"><img src="img/Icon/Cart.svg" alt="cart" class="menu__img"></a>
+							<a href="#"><img src="img/user-photo.jpg" alt="avatar" class="avatar"></a>
+						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-	</header>
-	<section>
-		
+		</header>
+		<section>
+			<div class="container container__padding">
+				<div class="row">
+					<div class="coll-md-12">
+						<div class="image-gallery">
+							<div class="jumbotron jumbotron__hero position-absolute">
+							  <div class="jumbotron__hero-content">
+							  	<h1 class="display-4">High-Quality Furniture Just For You</h1>
+								  <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+								  <hr class="my-4">
+								  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+								  <p class="lead">
+								    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+								  </p>
+							  </div>
+							</div>
+							<div class="d-flex justify-content-between align-items-center">
+								<div></div>
+								<div class="box-for-slider-dots"></div>
+								<div class="box-for-slider-arrows d-flex align-items-center justify-content-end"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container-fluid px-0 position-relative">
+				<div class="multiple-items">
+				  <div><img data-lazy="img/sofa2.jpg" alt="sofa" ></div>
+				  <div><img data-lazy="img/sofa1.jpg" alt="sofa" >
+				  	<div style='width: 200px; height: 200px; position: absolute; right: 150px; bottom: 150px; background: white; opacity: .5;'>hui</div>
+				  </div>
+				  <div><img data-lazy="img/sofa3.jpg" alt="sofa" ></div>
+				  <div><img data-lazy="img/sofa3.jpg" alt="sofa" ></div>
+				</div>
+				
+			</div>
 
-	</section>
-	<footer>
-		
-	</footer>
-	
+		</section>
+		<footer>
+			
+		</footer>
+	</div>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+	<script type="text/javascript" src="js/slider.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 	<script src="js/main.js"></script>
 </body>

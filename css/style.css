@@ -50,7 +50,9 @@ h1 {
 .app {
 	background: url('../img/fon.jpg') no-repeat center top /cover;
 	width: 1440px;
-
+}
+.app-margin-bottom {
+	margin-bottom: 88px;
 }
 .header {
 	padding-top: 40px;
@@ -148,7 +150,7 @@ h1 {
 	height: 562px;
 }
 .multiple-items div {
-	padding: 10px;
+	padding: 0px 10px;
 }
 .slick-dots {
   position: static;
@@ -195,9 +197,25 @@ li.slick-active {
 }
 
 .jumbotron__hero-content {
-	height: 407px;
 	width: 433px;
 	margin: 60px 65px;
 }
 
+/* feature-section */
+
+.feature-section__img {
+	margin: 0px 23px;
+}
+h4 {
+	/*display: inline;*/
+	font-size: 18px;
+	color: #3A3A3A;
+	font-family: 'Gilroy-Bold';
+	
+}
+.feature-section__text {
+	font-size: 16px;
+	color: #898989;
+	margin-top: -5px;
+}
 

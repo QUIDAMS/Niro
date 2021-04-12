@@ -47,6 +47,21 @@ h1 {
 	font-family: 'Gilroy-Bold';
 	color: #3A3A3A;
 }
+
+h3 {
+	font-size: 24px;
+}
+
+h4 {
+	font-size: 18px;
+	color: #3A3A3A;
+	font-family: 'Gilroy-Bold';
+}
+
+p {
+	margin: 0;
+}
+
 .app {
 	background: url('../img/fon.jpg') no-repeat center top /cover;
 	width: 1440px;
@@ -146,6 +161,9 @@ h1 {
 	position: relative;
   right: 0;
 }
+.multiple__slider-device {
+	    margin-bottom: 22px;
+}
 .multiple-items img{
 	height: 562px;
 }
@@ -206,16 +224,71 @@ li.slick-active {
 .feature-section__img {
 	margin: 0px 23px;
 }
-h4 {
-	/*display: inline;*/
-	font-size: 18px;
-	color: #3A3A3A;
-	font-family: 'Gilroy-Bold';
-	
-}
+
 .feature-section__text {
 	font-size: 16px;
 	color: #898989;
 	margin-top: -5px;
+}
+
+.feature-section__margin {
+	margin-bottom: 88px;
+
+}
+
+/* our products */
+
+.our-products__text {
+	margin-bottom: 32px;
+}
+.our-products__margin {
+	margin-bottom: 50px;
+}
+.products__margin {
+	margin-bottom: 32px;
+}
+.products__sub-text {
+	font-size: 16px;
+	color: #898989;
+}
+.products__previous-price {
+	text-decoration: line-through;
+}
+.products__current-price {
+	font-size: 20px;
+}
+.products__description {
+	padding: 16px 30px 30px 16px;
+	background: #F4F5F7;
+}
+.products__sub-text {
+	margin-bottom: 8px;
+}
+.products__special-offer {
+	background: #E97171;
+	border-radius: 50%;
+	width: 48px;
+	height: 48px;
+	z-index: 1;
+	margin-top: 24px;
+	right: 24px;
+}
+.products__special-offer p {
+	color: white;
+	font-size: 16px;
+}
+.products__special-offer_new {
+	background: #2EC1AC;
+}
+.products__button {
+	border: 1px solid #E89F71;
+	margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 44px;
+}
+.products__button-text {
+	color: #E89F71;
+	padding: 12px 82px;
+
 }
 

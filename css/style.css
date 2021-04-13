@@ -48,6 +48,11 @@ h1 {
 	color: #3A3A3A;
 }
 
+h2 {
+	font-size: 40px;
+	font-weight: bold;
+}
+
 h3 {
 	font-size: 24px;
 }
@@ -62,9 +67,12 @@ p {
 	margin: 0;
 }
 
+.orange-button {
+ 	background: #E89F71;
+}
+
 .app {
 	background: url('../img/fon.jpg') no-repeat center top /cover;
-	width: 1440px;
 }
 .app-margin-bottom {
 	margin-bottom: 88px;
@@ -73,15 +81,9 @@ p {
 	padding-top: 40px;
 
 }
-.container__padding {
-	padding: 0 40px;
-}
-
 .nav {
   height: 45px;
   padding-bottom: 106px;
-
-
 }
 .menu__logo {
 	margin-right: 64px;
@@ -162,7 +164,7 @@ p {
   right: 0;
 }
 .multiple__slider-device {
-	    margin-bottom: 22px;
+	margin-bottom: 22px;
 }
 .multiple-items img{
 	height: 562px;
@@ -201,7 +203,6 @@ li.slick-active {
 	padding: 7px;
 	margin-right: 6px;
 }
-
 .slick-list.draggable {
 	padding-left: 150px;
 }
@@ -213,10 +214,16 @@ li.slick-active {
 	height: 47px;
 	width: 200px;
 }
-
 .jumbotron__hero-content {
 	width: 433px;
 	margin: 60px 65px;
+}
+.jumbotron__text {
+	margin-bottom: 48px;
+}
+.jumbotron__button-text {
+	margin: 24px 169px;
+	color: white;
 }
 
 /* feature-section */
@@ -241,9 +248,7 @@ li.slick-active {
 .our-products__text {
 	margin-bottom: 32px;
 }
-.our-products__margin {
-	margin-bottom: 50px;
-}
+
 .products__margin {
 	margin-bottom: 32px;
 }
@@ -289,6 +294,64 @@ li.slick-active {
 .products__button-text {
 	color: #E89F71;
 	padding: 12px 82px;
+}
 
+/* inspirations */
+.inspirations__block {
+	background: #FCF8F3;
+}
+
+.inspirations__info-title {
+	margin-bottom: 8px;
+}
+.inspirations__description {
+	margin-bottom: 24px;
+}
+
+.inspirations__button-text {
+	color: white;
+	padding: 12px 40px;
+}
+
+/* slider2 */
+.inspirations-multiple-items {
+	position: relative;
+}
+.box-for-inspirations-arrow {
+	z-index: 10;
+	top: 50%;
+  transform: translateY(-50%);
+  right: 23px;
+}
+.box-for-inspirations-dots {
+	bottom: 0;
+	z-index: 10;
+	left: 460px;
+	bottom: 75px;
+}
+.box-for-inspirations-arrow__next {
+	z-index: 10;
+	background: white;
+	width: 48px;
+	height: 48px;
+	border-radius: 50%;
+}
+.inspirations-multiple-items .slick-list.draggable {
+	padding-left: 0px;
+}
+.inspirations-multiple-items .slick-slide {
+	margin: 0 25px;
+}
+.inspirations-multiple-items .slick-slide img {
+	height: 480px;
+	width: 370px;
+
+}
+.inspirations-multiple-items .slick-slide.slick-current.slick-active img {
+	height: 580px;
+	width: 400px;
+}
+.inspirations__slider .slick-dotted.slick-slider {
+	margin-bottom: 0;
 }
 

@@ -13,7 +13,7 @@
 <body>
 	<div class="app app-margin-bottom">
 		<header class="header">
-			<div class="container container__padding">
+			<div class="container">
 				<div class="row nav d-flex align-items-center">
 					<div class="col col-md-5">
 						<div class="menu d-flex mt-2">
@@ -55,18 +55,17 @@
 			</div>
 		</header>
 		<section class="top-section">
-			<div class="container container__padding">
+			<div class="container">
 				<div class="row">
 					<div class="coll-md-12">
 						<div class="image-gallery">
 							<div class="jumbotron jumbotron__hero position-absolute">
 							  <div class="jumbotron__hero-content">
 							  	<h1 class="display-4">High-Quality Furniture Just For You</h1>
-								  <p class="lead">Our furniture is made from selected and best quality materials that are suitable for your dream home</p>
-								  <hr class="my-4">
-								  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-								  <p class="lead">
-								    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+								  <p class="lead jumbotron__text">Our furniture is made from selected and best quality materials that are suitable for your dream home</p>
+							  	<button class="orange-button">
+							  		<p class="jumbotron__button-text">Shop Now</p>
+							  	</button>
 								  </p>
 							  </div>
 							</div>
@@ -92,7 +91,7 @@
 		</section>
 	</div>
 	<section class="feature-section">
-		<div class="container container__padding ">
+		<div class="container ">
 			<div class="row align-items-center feature-section__margin">
 			  <div class="col d-flex justify-content-center align-items-center">
 			  	<img class="feature-section__img" src="img/trophy 1.svg" alt="trophy">
@@ -125,8 +124,8 @@
 			</div>
 		</div>
 	</section>
-	<section class="our-products our-products__margin">
-		<div class="container container__padding">
+	<section class="our-products ">
+		<div class="container">
 			<h2 class="text-center our-products__text">Our Products</h2>
 			<div class="products products__margin">
 				<div class="row align-items-center">
@@ -187,6 +186,36 @@
 				<p class="products__button-text">Show More</p>
 			</button>
 		</div>
+	</section>
+	<section class="inspirations">
+		<div class="container-fluid inspirations__block">
+			<div class="container ">
+				<!-- d-flex align-items-center -->
+				<div class="row align-items-center">
+					<div class="col col-md-4">
+						<div class="inspirations__info">
+							<h2 class="inspirations__info-title">50+ Beautiful rooms inspiration</h2>
+							<p class="inspirations__description">
+								Our designer already made a lot of beautiful prototipe of rooms that inspire you
+							</p>
+							<button class="orange-button">
+								<p class="inspirations__button-text">Explore More</p>
+							</button>
+						</div>
+					</div>
+					<div class="col col-md-8 position-relative py-5 inspirations__slider">
+						<div class="box-for-inspirations-arrow position-absolute "></div>
+						<div class="box-for-inspirations-dots position-absolute"></div>
+						<div class="inspirations-multiple-items">
+						  <div><img data-lazy="img/Rectangle.jpg" alt="rectangle" ></div>
+						  <div><img data-lazy="img/inner.jpg" alt="inner" ></div>
+						  <div><img data-lazy="img/room.jpg" alt="room" ></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
 	</section>
 	<footer>
 		

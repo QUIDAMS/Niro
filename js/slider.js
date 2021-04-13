@@ -7,13 +7,28 @@ $(document).ready(function(){
     // autoplay: true, // автоматическая прокрутка 
   	// autoplaySpeed: 4000, //каждые 4 сек
   	centerPadding: false,
-  	initialSlide: 0, //показ слайда со второго
   	variableWidth: true,
   	dots: true,     //есть точки
   	appendDots: $('.box-for-slider-dots'), //их расположение будет в новом созданном блоке
   	appendArrows: $('.box-for-slider-arrows'),  //расположение стрелочек
   	prevArrow: '<button type="button" class="box-for-slider-arrows__prev"><img src="img/Left24px.svg" alt="L"> </button>',
   	nextArrow: '<button type="button" class="box-for-slider-arrows__next"><img src="img/Right24px.svg" alt="R"> </button>',
+	});
+	$('.inspirations-multiple-items').slick({
+		infinite: true, //бесконечная прокрутка
+    slidesToShow: 2, //показывать по 2 слайда
+  	initialSlide: 0, //показ слайда со второго
+  	slidesToScroll: 1,
+  	dots: true,     //есть точки
+    centerPadding: false,
+    centerMode: false, //слайд по центру
+    variableWidth: true,
+    appendArrows: $('.box-for-inspirations-arrow'),  //расположение стрелочек
+  	appendDots: $('.box-for-inspirations-dots'), 
+  	nextArrow: '<button type="button" class="box-for-inspirations-arrow__next"><img src="img/Right-slider2.svg" alt="R"> </button>',
+  	prevArrow: '<button type="button" class="box-for-inspirations-arrow__prev"></button>',
+
+
 	});
 });
 

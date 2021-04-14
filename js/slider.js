@@ -25,10 +25,21 @@ $(document).ready(function(){
     variableWidth: true,
     appendArrows: $('.box-for-inspirations-arrow'),  //расположение стрелочек
   	appendDots: $('.box-for-inspirations-dots'), 
-  	nextArrow: '<button type="button" class="box-for-inspirations-arrow__next"><img src="img/Right-slider2.svg" alt="R"> </button>',
+  	nextArrow: '<button type="button" class="box-for-white-arrows"><img src="img/Right-slider2.svg" alt="R"> </button>',
   	prevArrow: '<button type="button" class="box-for-inspirations-arrow__prev"></button>',
+	});
 
-
+	$('.tips-multiple-items').slick({
+		infinite: true, //бесконечная прокрутка
+    slidesToShow: 3, //показывать по 3 слайда
+    dots: true, 
+    centerMode: true,
+    initialSlide: 1,
+    slidesToScroll: 2,
+    centerPadding: false,
+    appendArrows: $('.box-for-tips-arrows'),
+    nextArrow: '<button type="button" class="box-for-white-arrows"><img src="img/Right-slider2.svg" alt="R"> </button>',
+  	prevArrow: '<button type="button" class="box-for-white-arrows"><img src="img/Left.svg" alt="R"></button>',
 	});
 });
 

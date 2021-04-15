@@ -390,6 +390,37 @@ li.slick-active {
 	font-size: 14px;
 	color: #898989;
 }
+.tips__position {
+	margin-bottom: 44px;
+}
 
+/* footer */
 
+.footer__position {
+	margin-bottom: 80px;
+}
+.footer__heading {
+	font-family: Gilroy-Bold;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 29px;
+}
+.footer__input {
+	background-color: #F4F5F7;
+	margin-right: 5px;
+	border: none;
+	border-radius: 0;
+}
+.footer__button {
+	background-color: #E89F71;
+	border: none;
+	border-radius: 0;
+}
+.footer__position-items li {
+	margin-bottom: 16px;
+}
+.pl {
+	padding-left: 40px;
+}
 
